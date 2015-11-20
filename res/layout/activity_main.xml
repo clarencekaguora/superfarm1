@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    
+    android:background="@drawable/img1"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnSell"
+        android:onClick="Tap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnBuy"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btnBuy"
+        android:layout_marginBottom="39dp"
+        android:background="#004F00"
+        android:text="Sell"
+        android:textColor="#ffff00" />
+
+    <Button
+        android:id="@+id/btnBuy"
+        android:onClick="Tap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSell"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:background="#004F00"
+        android:textColor="#ffff00"
+        android:text="Buy Products" />
+
+    <Button
+        android:id="@+id/btnHealth"
+        android:onClick="Tap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnBuy"
+        android:layout_alignLeft="@+id/btnFarmBook"
+        android:layout_alignRight="@+id/btnBuy"
+        android:layout_marginBottom="15dp"
+        android:background="#004F00"
+        android:text="Health"
+        android:textColor="#ffff00" />
+
+    <Button
+        android:id="@+id/btnFarmBook"
+        android:onClick="Tap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnHealth"
+        android:layout_alignLeft="@+id/btnBuy"
+        android:layout_alignRight="@+id/btnBuy"
+        android:layout_marginBottom="21dp"
+        android:background="#004F00"
+        android:text="Farm Book"
+        android:textColor="#ffff00" />
+
+    <Button
+        android:id="@+id/btnFarmHub"
+        android:onClick="Tap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnFarmBook"
+        android:layout_alignLeft="@+id/btnFarmBook"
+        android:layout_alignRight="@+id/btnFarmBook"
+        android:layout_marginBottom="20dp"
+        android:background="#004F00"
+        android:text="Farm Hub"
+        android:textColor="#ffff00" />
+
+    <TextView
+        android:id="@+id/txtHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Super Farm"
+        android:textColor="#ff0000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp" />
+
+</RelativeLayout>

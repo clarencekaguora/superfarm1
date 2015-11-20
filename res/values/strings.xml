@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KaguoraSuperFarm</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_farm_hub">FarmHub</string>
+    <string name="title_activity_farm_book">FarmBook</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_order">OrderActivity</string>
+
+</resources>

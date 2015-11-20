@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/img1"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".OrderActivity" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="enter phone number"
+        android:inputType="phone" >
+
+        <requestFocus />
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/spraying"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="Spraying" />
+
+    <CheckBox
+        android:id="@+id/cropping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="14dp"
+        android:text="Cropping" />
+
+    <CheckBox
+        android:id="@+id/marketing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marketing" />
+
+    <CheckBox
+        android:id="@+id/planning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planning" />
+
+    <CheckBox
+        android:id="@+id/postmanagement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:text="PostManagement" />
+
+    <Button
+        android:id="@+id/button2"
+        android:onClick="Tap2"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:text="OrderNow"
+        android:background="#234567" />
+
+</LinearLayout>
