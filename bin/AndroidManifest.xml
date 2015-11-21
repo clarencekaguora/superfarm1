@@ -7,7 +7,8 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
-    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
         android:allowBackup="true"
@@ -34,6 +35,10 @@
         <activity
             android:name="com.example.superfarm.OrderActivity"
             android:label="@string/title_activity_order" >
+        </activity>
+        <activity
+            android:name="com.example.superfarm.Recordkeeping"
+            android:label="@string/title_activity_recordkeeping" >
         </activity>
     </application>
 

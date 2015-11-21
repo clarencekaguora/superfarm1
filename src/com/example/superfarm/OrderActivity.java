@@ -25,7 +25,7 @@ public class OrderActivity extends Activity {
 		ckmarketing=(CheckBox) findViewById(R.id.marketing);
 		ckplanning=(CheckBox) findViewById(R.id.planning);
 		ckpostmanagement=(CheckBox) findViewById(R.id.postmanagement);
-		editText1=(EditText) findViewById(R.id.editText1);
+		editText1=(EditText) findViewById(R.id.txtproductname);
 	}
 	
 	public void Tap2(View v)
