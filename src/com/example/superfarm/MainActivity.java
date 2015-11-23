@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
     		case R.id.btnFarmHub:
     			
     			//do here
-    			Intent x = new Intent(this,FarmHub.class);
+    			Intent x = new Intent(this,Recordkeeping.class);
     			startActivity(x);
     			
     		break;

@@ -11,38 +11,43 @@
     tools:context=".Recordkeeping" >
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/txtproductname"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="38dp"
-        android:ems="10" >
+        android:layout_marginTop="58dp"
+        android:ems="10"
+        android:hint="product Name" >
 
         <requestFocus />
     </EditText>
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/txtfarmcode"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:ems="10" />
+        android:ems="10"
+        android:hint="Farm Code" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txtbudgetcost"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:ems="10" />
+        android:ems="10"
+        android:hint="Budget Cost" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/txtmonth"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:ems="10" />
+        android:ems="10"
+        android:hint="Enter Month" />
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/btnrecord"
+        android:onClick="Save"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Button" />
+        android:text="save record" />
 
 </LinearLayout>
