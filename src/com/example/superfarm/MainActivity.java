@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
     		case R.id.btnFarmHub:
     			
     			//do here
-    			Intent x = new Intent(this,Recordkeeping.class);
+    			Intent x = new Intent(this,FarmHub.class);
     			startActivity(x);
     			
     		break;
@@ -39,15 +39,21 @@ public class MainActivity extends Activity {
     
     		case R.id.btnHealth:
     			//do here
+    			Intent a=new Intent(this,SearchActivity.class);
+    			startActivity(a);
     		break;
     	    
     		case R.id.btnBuy:
     			//do here
+    			Intent z = new Intent(this,Recordkeeping.class);
+    			startActivity(z);
     		break;
     		
     	    
     		case R.id.btnSell:
     			//do here
+    			Intent b=new Intent(this,SmsProvider.class);
+    			startActivity(b);
     		break;
 
     	}	

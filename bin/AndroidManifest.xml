@@ -9,6 +9,7 @@
         android:targetSdkVersion="17" />
 
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS"/>
 
     <application
         android:allowBackup="true"
@@ -39,6 +40,14 @@
         <activity
             android:name="com.example.superfarm.Recordkeeping"
             android:label="@string/title_activity_recordkeeping" >
+        </activity>
+        <activity
+            android:name="com.example.superfarm.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.example.superfarm.SmsProvider"
+            android:label="@string/title_activity_sms_provider" >
         </activity>
     </application>
 

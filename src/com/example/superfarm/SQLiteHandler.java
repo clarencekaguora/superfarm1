@@ -100,7 +100,17 @@ protected Context context;
     
  
 }
- 
-
+ //delete a record by month and code 
+ public int deleteRecord(String code,String month) {
+	 SQLiteDatabase db=this.getWritableDatabase();
+	 
+	 String [] args=new String[] {code,month};
+	 
+	 int x =db.delete(table,"farmCode=? and productMonth",args);
+	 return x;
+ }
+	
 }
+
+
  

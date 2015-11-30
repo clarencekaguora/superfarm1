@@ -35,9 +35,18 @@ EditText productName,farmCode,budgetCost,productMonth;
 		String f_code=farmCode.getText().toString();
 		String b_cost=budgetCost.getText().toString();
 		String p_month=productMonth.getText().toString();
-		//SQLite DB
-		SQLiteHandler h=new SQLiteHandler(this);
-		h.SaveData(product, f_code, b_cost, p_month);
+		//empty
+		if(product.length()<1||product.length()>10)
+		{
+			Toast.makeText(this, "Please Check If Empty!! or Input < 10", Toast.LENGTH_LONG).show();
+		}
+		else
+		{
+			//pass to  SQLite DB Handler
+			SQLiteHandler h=new SQLiteHandler(this);
+			h.SaveData(product, f_code, b_cost, p_month);
+		}
+
 	}
 
 	@Override
